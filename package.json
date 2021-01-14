@@ -1,0 +1,34 @@
+{
+  "name": "name-to-hex-color",
+  "version": "1.0.0",
+  "repository": "https://github.com/b13oleksandr/name-to-hex-color.git",
+  "author": "Oleksandr Bondarchuk <b13.oleksandr@gmail.com>",
+  "license": "MIT",
+  "keywords": ["js", "string to color", "string to color js", "hex color from string", "name to color", "name to color js", "color from name", "name to hex", "hex"],
+  "main": "dist/cjs/nameToHexColor.js",
+  "module": "dist/nameToHexColor.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "jest": "^26.6.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
