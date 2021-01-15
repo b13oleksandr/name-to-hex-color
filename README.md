@@ -1,3 +1,6 @@
+# Demo
+https://b13oleksandr.github.io/name-to-hex-color-demo/
+
 # Install
 ```
 npm i name-to-hex-color
